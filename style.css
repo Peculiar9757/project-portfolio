@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-color: lightslategrey;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 500px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: gold;
+    font-weight: bolder;
+    font-size: medium;
+    margin: 20px;
+}
+.emoji{
+    display: flex;
+    justify-content: center;
+    color: gold;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #183153;
+    align-items: center;
+    margin-left: 40%;
+
+}
+.p{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 20px;
+    color:#183153;
+    text-align: center;
+    margin: 20px;
+}
+p{
+    font-size: small;
+    color: #183153;
+    text-align: center;
+    margin: 10px;
+}
+.input-cnt{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.icon{
+    padding: 10px;
+    background: white;
+    color: #183153;
+    min-width: 50px;
+    text-align: center;
+}
+.input-field{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #6d6a6a;
+    /* border-color:#183153; */
+    /* outline: #183153; */
+    border-radius: 5px;
+}
+.input-field:focus{
+    /* border: 1px solid lightblue; */
+    outline: 2px solid lightblue;
+}
+#flex{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #183153;
+    font-size: small;
+}
+.forgot{
+    font-size: small;
+}
+.btn > button{
+    background-color: gold;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0 5px 1px #183153;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    color: #183153;
+    font-weight: bolder;
+    margin-top: 55px;
+}
+.btn > button:hover{
+    background-color: #183153;
+    color: gold;
+    box-shadow: none;
+}
+.btn > i{
+    color: #183153;
+
+}
+.btn > i:hover{
+    color: gold;
+}
